@@ -41,7 +41,7 @@ trainer = Trainer(
     data_collator=data_collator,
     tokenizer=tokenizer,
     compute_metrics = compute_metrics
-)
+) 
 
 trainer.train()
 
